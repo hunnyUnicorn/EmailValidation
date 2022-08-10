@@ -1,0 +1,55 @@
+.input-group {
+  position: relative;
+  font-size: 16px;
+  margin: 15px 0 10px 0;
+}
+
+.input-control {
+  padding: 10px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+.input-control:focus {
+  outline: 0;
+}
+.input-control:hover {
+  outline: 0;
+}
+
+/* Customize placeholder */
+.input-group .input-label {
+  pointer-events: none;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transform-origin: 0 0;
+  transition: all .2s ease-out;
+  color: silver;
+  -webkit-transition: all 0.3s ease;
+  padding: 0 5px 0 5px;
+  transform: translateY(-1rem) scale(0.8);
+  background-color: #f9f9f9;
+}
+.input-group .input-control:focus + .input-label {
+  transform: translateY(-1rem) scale(.8) !important;
+  background-color: #f9f9f9 !important;
+}
+.input-group .input-control:placeholder-shown + .input-label {
+  transform: translateY(0) scale(1);
+  background-color: transparent;
+}
+.input-group .input-control::placeholder{
+  color: transparent;
+}
+
+.warning {
+  color: #ff7070;
+  border-color: #ff7070;
+}
+
+.info {
+  color: silver;
+}

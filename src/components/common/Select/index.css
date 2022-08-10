@@ -1,0 +1,10 @@
+.select {
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  outline: 0;
+}
+

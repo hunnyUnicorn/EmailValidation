@@ -1,0 +1,25 @@
+.login-form {
+  margin-top: 100px !important;
+  width: 60%;
+  margin: auto;
+  max-width: 400px;
+  min-width: 220px;
+  color: #393939;
+}
+
+.login-form a {
+  cursor: pointer;
+  color: rgb(41, 110, 250);
+}
+
+.login-form .login-info {
+  margin-top: 30px;
+}
+
+.login-form .button {
+  margin-top: 30px;
+}
+
+.login-form .circular-progress {
+  float: right;
+}

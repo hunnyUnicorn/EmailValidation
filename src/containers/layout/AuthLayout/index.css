@@ -1,0 +1,9 @@
+.auth-layout {
+  width: calc(100% - 450px);
+}
+
+@media only screen and (max-width: 700px) {
+  .auth-layout {
+    width: 100%;
+  }
+}
